@@ -32,12 +32,12 @@ hard => jusqu'à 999
 Exo3 - Composant "Rainbow"
 Créer un composant classe "Rainbow".
 Ce composant devra afficher une forme carrée (div) de 100x100 pixels
-avec une couleur de fond par défaut: black. Cette couleur de dépar pourra être
+avec une couleur de fond par défaut: black. Cette couleur de départ pourra être
 spécifiée via une propriété du composant.
 Toutes les 2 secondes la couleur de fond devra changer (si possible de façon aléatoire)
 
 Tip: Javascript dispose de setInterval
 
 Option:
-A l'intervalle, la forme initiale (100x100) augement en largeur de 10
+A l'intervalle, la forme initiale (100x100) augmente en largeur de 10
 Exemple: 100 => 110 => 120
