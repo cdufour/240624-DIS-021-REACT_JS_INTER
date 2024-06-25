@@ -3,6 +3,8 @@ import { Counter } from './components/Counter';
 import CounterStateful from './components/CounterStateful';
 import Addition from './components/exos/Addition';
 import { Lorem } from './components/exos/Lorem';
+import RainbowWrapper from './components/exos/RainbowWrapper';
+import ProductList from './components/products/ProductList';
 import { Simple, Simple2, Simple3, Simple4, Simple5 } 
   from './components/Simples';
 
@@ -16,8 +18,7 @@ function App() {
       <h1>{ message }</h1>
       <h2>Version de react: { version }</h2>
 
-      <Simple5 operand1={56} operand2={12} operator="sub" />
-      <Simple5 operand1={12} operand2={56} operator="sub" />
+      <ProductList />
 
       <section>
         <Simple />
@@ -36,12 +37,14 @@ function App() {
         <Simple5 operand1={56} operand2={12} operator="add" />
         <Simple5 operand1={56} operand2={12} operator="mult" />
         <Simple5 operand1={56} operand2={12} operator="sub" />
-        
         <CounterStateful initialValue={5} />
         <Counter />
         <Addition difficulty="easy" />
         <Addition difficulty="medium" />
         <Addition difficulty="hard" />
+        <Simple5 operand1={56} operand2={12} operator="sub" />
+        <Simple5 operand1={12} operand2={56} operator="sub" />
+        <RainbowWrapper />
       </section>
     </div>
   )

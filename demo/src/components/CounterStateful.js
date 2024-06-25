@@ -6,7 +6,7 @@ class CounterStateful extends React.Component {
 
     constructor({initialValue}) {
         super() // à utiliser systématiquement dès que state est utiliser dans le composant
-        console.log('*** constructor time ***')
+        //console.log('*** constructor time ***')
         //this.setState({ count: initialValue })
         this.state = { count: initialValue }
     }
@@ -20,7 +20,7 @@ class CounterStateful extends React.Component {
     }
     
     render() {
-        console.log('*** render time ***')
+        //console.log('*** render time ***')
         return (
             <div>
                 <button onClick={ () => this.onClick() }>Increment</button>
