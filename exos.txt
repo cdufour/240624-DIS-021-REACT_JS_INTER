@@ -14,3 +14,15 @@ Cf: https://www.alsacreations.com/page/schnapsum
 
 
 Tip: les chaînes de caractères JavaScript disposent de la méthode .substr renvoyant une portion de chaîne
+
+Exo2 - Composant "Addition"
+Créer un composant de classe "Addition"
+Ce composant affichera une addition entre deux valeurs entières aléatoires (ex: 4 + 3)
+ainsi qu'un bouton "Résultat", le clic sur le bouton "Résulat" fera apparaître
+le résultat dans l'interface
+
+option: ajouter au composant une propriété difficulty (easy, medium, hard) qui déterminera
+les valeurs entières.
+easy => entre 0 et 9
+mediumm => entre 10 et 99
+hard => entre 100 et 999
