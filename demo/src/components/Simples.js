@@ -48,13 +48,18 @@ function Simple5(props) {
 
     if (!operation) return <div>Opération non réalisable !</div>
 
+    let style = {};
+    if (result < 0) {
+        style.color = 'red';
+    }
+
     return (
         <div>
             <span>{operand1}</span>
             <span>{operation}</span>
             <span>{operand2}</span>
             <span>=</span>
-            <span>{result}</span>
+            <span style={style}>{result}</span>
         </div>
     )
 }

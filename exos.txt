@@ -15,6 +15,7 @@ Cf: https://www.alsacreations.com/page/schnapsum
 
 Tip: les chaînes de caractères JavaScript disposent de la méthode .substr renvoyant une portion de chaîne
 
+
 Exo2 - Composant "Addition"
 Créer un composant de classe "Addition"
 Ce composant affichera une addition entre deux valeurs entières aléatoires (ex: 4 + 3)
@@ -22,7 +23,21 @@ ainsi qu'un bouton "Résultat", le clic sur le bouton "Résulat" fera apparaîtr
 le résultat dans l'interface
 
 option: ajouter au composant une propriété difficulty (easy, medium, hard) qui déterminera
-les valeurs entières.
-easy => entre 0 et 9
-mediumm => entre 10 et 99
-hard => entre 100 et 999
+la longueur des valeurs entières.
+easy => jusqu'à 9
+medium => jusqu'à 99
+hard => jusqu'à 999
+
+
+Exo3 - Composant "Rainbow"
+Créer un composant classe "Rainbow".
+Ce composant devra afficher une forme carrée (div) de 100x100 pixels
+avec une couleur de fond par défaut: black. Cette couleur de dépar pourra être
+spécifiée via une propriété du composant.
+Toutes les 2 secondes la couleur de fond devra changer (si possible de façon aléatoire)
+
+Tip: Javascript dispose de setInterval
+
+Option:
+A l'intervalle, la forme initiale (100x100) augement en largeur de 10
+Exemple: 100 => 110 => 120
