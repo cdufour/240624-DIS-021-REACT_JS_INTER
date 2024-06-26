@@ -1,8 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-
-const API = 'http://localhost:4000/products';
+import { API } from '../components/products/config';
 
 /* toDo: indiquer dans l'interface que le produit
 est introuvable lorsque l'id demandé ne correspond à rien côté API */

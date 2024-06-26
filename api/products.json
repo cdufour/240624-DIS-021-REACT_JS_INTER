@@ -1,46 +1,46 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Truc formidable",
-        "price": 14.3,
-        "stock": 12,
-        "online": true
-      },
-      {
-        "id": 2,
-        "name": "Truc génial",
-        "price": 50,
-        "stock": 1,
-        "online": false
-      },
-      {
-        "id": 3,
-        "name": "Truc magique",
-        "price": 85.9,
-        "stock": 20,
-        "online": true
-      },
-      {
-        "id": 4,
-        "name": "Truc fantastique",
-        "price": 85.9,
-        "stock": 90,
-        "online": true
-      },
-      {
-        "id": 5,
-        "name": "Truc épique",
-        "price": "10.99",
-        "stock": "10",
-        "online": true
-      },
-      {
-        "name": "Truc super",
-        "price": "4",
-        "stock": "10",
-        "online": true,
-        "id": 6
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "name": "Truc formidable",
+      "price": 14.3,
+      "stock": 12,
+      "online": true
+    },
+    {
+      "id": "2",
+      "name": "Truc génial",
+      "price": 50,
+      "stock": 1,
+      "online": false
+    },
+    {
+      "id": "3",
+      "name": "Truc magique",
+      "price": 85.9,
+      "stock": 20,
+      "online": true
+    },
+    {
+      "id": "4",
+      "name": "Truc fantastique",
+      "price": 85.9,
+      "stock": 90,
+      "online": true
+    },
+    {
+      "id": "5",
+      "name": "Truc épique",
+      "price": "10.99",
+      "stock": "10",
+      "online": true
+    },
+    {
+      "name": "Truc super",
+      "price": "4",
+      "stock": "10",
+      "online": true,
+      "id": "6"
+    }
+  ]
+}

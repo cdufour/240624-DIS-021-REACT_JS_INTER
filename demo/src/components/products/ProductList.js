@@ -1,8 +1,7 @@
 import React from 'react';
 import ProductItem from './ProductItem';
 import ProductSearch from './ProductSearch';
-
-const API = 'http://localhost:4000/products';
+import { API } from './config'
 
 export default class ProductList extends React.Component {
 

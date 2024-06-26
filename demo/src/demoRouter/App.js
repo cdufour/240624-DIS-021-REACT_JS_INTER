@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import ProductList from '../components/products/ProductList'
 import Product from './Product'
+import ProductForm from '../components/products/ProductForm'
 
 export default function App(props) {
     return (
@@ -11,6 +12,7 @@ export default function App(props) {
                     <li><Link to="/users">Users</Link></li>
                     <li><Link to="/list">List</Link></li>
                     <li><Link to="/products">Products</Link></li>
+                    <li><Link to="/form">Form</Link></li>
                 </ul>
             </nav>
 
@@ -20,6 +22,7 @@ export default function App(props) {
                 <Route path="/list" element={ <Products /> } />
                 <Route path="/products" element={ <ProductList /> } />
                 <Route path="/products/:id" element={ <Product /> } />
+                <Route path="/form" element={ <ProductForm /> } />
             </Routes>
         </Router>
     )
