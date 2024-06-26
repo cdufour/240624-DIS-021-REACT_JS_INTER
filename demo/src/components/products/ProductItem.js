@@ -1,3 +1,4 @@
+import StockLevel from '../exos/StockLevel';
 import './ProductItem.css';
 export default function ProductItem({product}) {
 
@@ -10,6 +11,7 @@ export default function ProductItem({product}) {
             <h3>{name}</h3>
             <p className='product-price'>Prix: {price} EUR</p>
             <p>Stock: {stock} unités - <span style={style1}>{onlineTxt}</span></p>
+            <StockLevel stock={stock} />
             <hr />
         </article>
     )

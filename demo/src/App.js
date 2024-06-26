@@ -18,9 +18,9 @@ function App() {
       <h1>{ message }</h1>
       <h2>Version de react: { version }</h2>
 
-      <ProductList />
-
+      { false &&
       <section>
+        <ProductList />
         <Simple />
         <Simple2 propA="React" />
         <Simple2 propA="Angular" />
@@ -46,6 +46,8 @@ function App() {
         <Simple5 operand1={12} operand2={56} operator="sub" />
         <RainbowWrapper />
       </section>
+    }
+    
     </div>
   )
 }
